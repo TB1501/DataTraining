@@ -39,7 +39,7 @@ int main() {
 
 
     //In this part we are extracting the images from vector to cv::Mat (OpenCv matrix format)
-    for (int i = 0; i <1000; i++)//(int) images.size()
+    for (int i = 0; i < (int)images.size(); i++)//(int) images.size()
     {
         cv::Mat tempImg = cv::Mat::zeros(cv::Size(28, 28), CV_8UC1);
         int rowCounter = 0;
